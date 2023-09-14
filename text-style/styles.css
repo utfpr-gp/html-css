@@ -1,0 +1,53 @@
+html {
+  font-size: 16px; /* não precisa, pois já é o padrão */
+}
+
+h1 {
+  margin-bottom: 1em;
+  font-size: 2em;
+}
+
+h2 {
+  margin-bottom: 1em;
+  font-size: 1.5em;
+}
+
+p {
+  margin-bottom: 1em;
+  text-indent: 2em;
+  text-align: justify;
+}
+
+.paragraph:nth-child(1) {
+  /* Estilos para o primeiro parágrafo */
+  color: red;
+  font-size: 18px;
+  margin-top: 12px;
+}
+
+.paragraph:nth-child(2) {
+  /* Estilos para o segundo parágrafo */
+  color: blue;
+  font-size: 16px;
+  margin-bottom: 30px;
+}
+
+.paragraph:nth-child(3) {
+  /* Estilos para o terceiro parágrafo */
+  color: green;
+  font-size: 1.5em;
+  margin-left: 1em;
+}
+
+.paragraph:nth-child(4) {
+  /* Estilos para o quarto parágrafo */
+  color: orange;
+  font-size: 2rem;
+  margin-top: 3rem;
+}
+
+#paragraph {
+  background-color: #ccc;
+  font-size: 16px;
+  margin: 40px 60px;
+}
